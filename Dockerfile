@@ -75,4 +75,4 @@ ENV PATH="/scripts:/py/bin:$PATH"
 USER django-user
 
 #CMD ["run.sh"]
-CMD["python","-m","http.server"]
+CMD ["python","-m","http.server"]
